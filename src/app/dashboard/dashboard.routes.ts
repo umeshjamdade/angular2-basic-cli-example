@@ -6,7 +6,7 @@ const routes: Routes = [
     {
         path: '', component: DashboardComponent ,
         children: [
-            { path: '', redirectTo: 'home', pathMatch: 'full' },
+            { path: '', redirectTo: 'home' },
             { path: 'home', component: HomeComponent },
             { path: 'contact-list', component: ContactListComponent }
         ]
